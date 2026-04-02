@@ -1,0 +1,47 @@
+# git-vv
+
+一个自定义的 Git 可视化命令，输出 5 行彩色日志。
+
+## 安装
+
+### Windows (PowerShell)
+
+1. 打开 PowerShell 配置文件：
+
+```powershell
+notepad $PROFILE
+```
+
+如果提示文件不存在，先运行：
+
+```powershell
+New-Item -Path $PROFILE -Type File -Force
+```
+
+2. 将 `git-vv.ps1` 的全部内容复制粘贴到 `$PROFILE` 文件中，保存关闭。
+
+3. 刷新生效：关掉终端重开，或执行：
+
+```powershell
+. $PROFILE
+```
+
+4. 用法：在任意 Git 仓库目录下输入 `gvv` 即可。
+
+### Linux (Bash)
+
+1. 复制脚本到系统命令目录：
+
+```bash
+cp git-vv.sh /usr/local/bin/git-vv
+chmod +x /usr/local/bin/git-vv
+```
+
+2. 如需简短别名 `gvv`，编辑 `~/.bashrc`：
+
+```bash
+echo "alias gvv='git-vv'" >> ~/.bashrc
+source ~/.bashrc
+```
+
+3. 用法：在任意 Git 仓库目录下输入 `gvv` 或 `git-vv`。
