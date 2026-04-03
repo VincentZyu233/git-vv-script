@@ -47,3 +47,43 @@ source ~/.bashrc
 ```
 
 3. 用法：在任意 Git 仓库目录下输入 `gvv` 或 `git-vv`。
+
+## 跨平台在线运行（Python）
+
+无需安装脚本，直接通过管道运行：
+
+### GitHub
+
+**Linux/macOS:**
+```bash
+curl -sL https://raw.githubusercontent.com/VincentZyu233/git-vv-script/main/git-vv.py | python3
+```
+
+**Windows PowerShell:**
+```powershell
+irm https://raw.githubusercontent.com/VincentZyu233/git-vv-script/main/git-vv.py | python
+```
+
+### Gitee
+
+**Linux/macOS:**
+```bash
+curl -sL https://gitee.com/vincent-zyu/git-vv-script/raw/master/git-vv.py | python3
+```
+
+**Windows PowerShell:**
+```powershell
+irm https://gitee.com/vincent-zyu/git-vv-script/raw/master/git-vv.py | python
+```
+
+### 快捷使用
+
+Linux 可加别名到 `~/.bashrc`：
+```bash
+echo "alias gvvp='curl -sL https://raw.githubusercontent.com/VincentZyu233/git-vv-script/main/git-vv.py | python3'" >> ~/.bashrc
+source ~/.bashrc
+```
+
+Windows 可在 `$PROFILE` 中添加函数：
+```powershell
+function gvvp { irm https://raw.githubusercontent.com/VincentZyu233/git-vv-script/main/git-vv.py | python }
