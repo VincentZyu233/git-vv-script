@@ -1,3 +1,5 @@
+![git-vv-script](https://socialify.git.ci/VincentZyu233/git-vv-script/image?custom_description=%E2%9C%A8+git-vv-scripts+%F0%9F%8E%A8+&custom_language=Shell&description=1&font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fgist%2FXainey%2Fd5bde7d01dcbac51ac951810e94313aa%2Fraw%2F6c858c46726541b48ddaaebab29c41c07a196394%2FPowerShell.svg&name=1&owner=1&pattern=Overlapping+Hexagons&pulls=1&stargazers=1&theme=Auto)
+
 # git-vv
 
 一个自定义的 Git 可视化命令，输出 5 行彩色日志。
