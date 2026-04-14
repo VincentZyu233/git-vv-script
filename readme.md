@@ -4,6 +4,9 @@
 
 一个自定义的 Git 可视化命令，输出 5 行彩色日志。
 
+# ssh-server-alive
+看这里:  ☞[ssh-server-alive.md](ssh-server-alive.md)
+
 ## 安装
 
 ### Windows (PowerShell)
